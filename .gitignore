@@ -1,41 +1,95 @@
-# Compiled Lua sources
-luac.out
+DarkRP.createShipment("Desert Eagle", {
+    model = "models/weapons/w_pist_deagle.mdl",
+    entity = "fas2_deagle",
+    price = 5000,
+    amount = 10,
+    separate = true,
+    pricesep = 500,
+    noship = true,
+    allowed = {TEAM_Gundealer},
+    category = "Pistols",
+})
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
+DarkRP.createShipment("Glock 20", {
+    model = "models/weapons/w_pist_glock18.mdl",
+    entity = "fas2_glock20",
+    price = 2500,
+    amount = 10,
+    separate = true,
+    pricesep = 250,
+    noship = false,
+    allowed = {TEAM_Gundealer},
+    category = "Pistols",
+})
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
+DarkRP.createShipment("P226", {
+    model = "models/weapons/w_pist_p228.mdl",
+    entity = "fas2_p226",
+    price = 4000,
+    amount = 10,
+    separate = true,
+    pricesep = 400,
+    noship = false,
+    allowed = {TEAM_Gundealer},
+    category = "Pistols",
+})
 
-# Precompiled Headers
-*.gch
-*.pch
+DarkRP.createShipment("AK47", {
+    model = "models/weapons/w_rif_ak47.mdl",
+    entity = "fas2_ak47",
+    price = 15000,
+    amount = 10,
+    separate = true,
+    pricesep = 1500,
+    noship = false,
+    allowed = {TEAM_Gundealer},
+    category = "Rifles",
+})
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
+DarkRP.createShipment("MP5A5", {
+    model = "models/weapons/w_smg_mp5.mdl",
+    entity = "fas2_mp5a5",
+    price = 10000,
+    amount = 10,
+    separate = true,
+    pricesep = 1000,
+    noship = false,
+    allowed = {TEAM_Gundealer},
+    category = "Rifles",
+})
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+DarkRP.createShipment("M4A1", {
+    model = "models/weapons/w_rif_m4a1.mdl",
+    entity = "fas2_m4a1",
+    price = 15000,
+    amount = 10,
+    separate = true,
+    pricesep = 1500,
+    noship = false,
+    allowed = {TEAM_Gundealer},
+    category = "Rifles",
+})
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+DarkRP.createShipment("M3 Super 90", {
+    model = "models/weapons/w_shot_m3super90.mdl",
+    entity = "fas2_m3s90",
+    price = 17500,
+    amount = 1750,
+    separate = true,
+    pricesep = nil,
+    noship = false,
+    allowed = {TEAM_Gundealer},
+    category = "Shotguns",
+})
 
+DarkRP.createShipment("SR-25", {
+    model = "models/weapons/w_snip_g3sg1.mdl",
+    entity = "fas2_sr25",
+    price = 25000,
+    amount = 10,
+    separate = true,
+    pricesep = 2500,
+    noship = false,
+    allowed = {TEAM_Gundealer},
+    category = "Snipers",
+})
